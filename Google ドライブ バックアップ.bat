@@ -17,7 +17,7 @@ set DATETIME="%date:~-10,4%-%date:~-5,2%%date:~-2,2%-%time:~0,2%-%time:~3,2%"
 
 rem Google ドライブ パス
 set GOOGLE_DRIVE="Google ドライブ"
-set GOOGLE_DRIVE_ORG="C:\Users\%USERNAME%\Google ドライブ"
+set GOOGLE_DRIVE_ORG="%USERPROFILE%\Google ドライブ"
 
 rem アーカイブファイル
 set ARCHIVE_FILE=%GOOGLE_DRIVE%_%DATETIME%.zip

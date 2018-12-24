@@ -17,7 +17,7 @@ set DATETIME="%date:~-10,4%-%date:~-5,2%%date:~-2,2%-%time:~0,2%-%time:~3,2%"
 
 rem OneDrive パス
 set ONE_DRIVE="OneDrive"
-set ONE_DRIVE_ORG="C:\Users\%USERNAME%\OneDrive"
+set ONE_DRIVE_ORG="%USERPROFILE%\OneDrive"
 
 rem アーカイブファイル
 set ARCHIVE_FILE=%ONE_DRIVE%_%DATETIME%.zip
